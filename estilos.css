@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1025px){
+    body {
+        width: 1170px;
+        margin: 0 auto;
+        font-family: Roboto;
+    }
+    .encabezado{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #17335B;     
+    }
+    
+    .encaLogos{
+        display: flex;
+        width: 50%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logos{
+        width: 150px;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+
+    #linea{
+        width: 3%;
+        height: 150px;
+    }
+
+    #banner{
+        width: 60%;
+        height: 150px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menuHead{
+        background-color: #DADADA;
+        height: 60px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+    }
+
+    .opHead{
+        width: 200px;
+        padding: 20px;
+        height: auto;
+        text-align: center; 
+    }
+
+    #imgMenu{
+        visibility: hidden;
+    }
+
+    .contenido{
+        width: 100%;
+        display: flex;
+        margin-top: 5px;
+    }
+
+    .menuIzq{
+        width: 20%;
+    }
+    
+    .opIzq{
+        width: 100%;
+        height: 40px;
+        color: white;
+        background-color: #1E72B8;
+        margin-bottom: 5px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .secDer{
+        width: 60%;
+        background-color: #FEE4C3;
+        height: 350px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .imgDer{
+        width: 20%;
+    }
+
+    #programas{
+        background-color: #999999;
+        text-align:left;
+        color: white;
+        height: 60px;
+        padding: 7px;
+        margin-bottom: 3px;
+    }
+
+    #accesos{
+        background-color: #999999;
+        text-align:left;
+        color: white;
+        height: 40px;
+        padding: 7px;
+    }
+
+    .contImg{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;    
+    }
+
+    #imagenesDer{
+        margin: 5 0 5 0;
+    }
+
+    .subImg{
+        display: flex;
+        flex-direction: column;
+        width: 13%;
+    }
+
+    .footer{
+        background-color: #DADADA;
+        height: 150px;
+       text-align: left;
+       padding: 23px;
+    }
+
+    #uaslp{
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (min-width: 681px) and (max-width: 1024px){
+    body {
+        width: 700px;
+        margin: 0 auto;
+        font-family: Roboto;
+    }
+
+    .encabezado{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #17335B;     
+    }
+    
+    .encaLogos{
+        display: flex;
+        width: 50%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logos{
+        width: 25%;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+
+    #linea{
+        width: 3%;
+        height: 150px;
+    }
+
+    #banner{
+        width: 60%;
+        height: 150px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menuHead{
+        background-color: #DADADA;
+        height: 40px;
+        margin-top: 5px;
+        display: flex;
+        align-content: center;
+        width: 100%;
+    }
+
+    .opHead{
+        font-size: 13px;
+        width: 112px;
+        padding: 15px;
+        height: auto;
+        text-align: center; 
+    }
+
+    #imgMenu{
+        visibility: hidden;
+    }
+
+    .contenido{
+        width: 100%;
+        display: flex;
+        margin-top: 5px;
+        flex-direction: column;
+    }
+
+    .menuIzq{
+        width: 100%;
+        display: flex;
+    }
+    
+    .opIzq{
+        width: 100%;
+        height: 40px;
+        color: white;
+        background-color: #1E72B8; 
+        margin: 2px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .secDer{
+        width: 100%;
+        background-color: #FEE4C3;
+        height: 400px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .imgDer{
+        width: 100%;
+    }
+
+    #programas{
+        background-color: #999999;
+        text-align:left;
+        color: white;
+        height: 40px;
+        padding: 7px;
+        margin-bottom: 3px;
+    }
+
+    #accesos{
+        background-color: #999999;
+        text-align:left;
+        color: white;
+        height: 40px;
+        padding: 7px;
+        margin-top: 5px;
+    }
+
+    .contImg{
+        display: flex;
+        flex-direction: row;
+        height: 40px;  
+    }
+
+    #imagenesDer{
+        margin: 0 5 0 5;
+    }
+
+    .subImg{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 25px;
+        margin-top: 5px;
+    }
+
+    .footer{
+        background-color: #DADADA;
+        height: 150px;
+       text-align: left;
+       padding: 23px;
+       margin-top: 15px;
+    }
+
+    #uaslp{
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 680px){
+    body {
+        width: 100%;
+        margin: 0 auto;
+        font-family: Roboto;
+    }
+
+    .encabezado{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        background-color: #17335B;     
+    }
+    
+    .encaLogos{
+        display: flex;
+        width: 100%;
+        height: 90px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #logos{
+        width: 180px;
+        height: 75px;
+        justify-content: right;
+        align-items: center;
+        margin: 10px;
+    }
+
+    #linea{
+        width: 4%;
+        height: 150px;
+    }
+
+    #banner{
+        width: 100%;
+        height: 150px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menuHead{
+        background-color: #DADADA;
+        height: 40px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: flex-end;
+        width: 100%;     
+    }
+
+    .opHead{
+        font-size: 13px;
+        width: 112px;
+        padding: 15px;
+        height: auto;
+        text-align: center; 
+        color: #DADADA;
+        display: none;
+    }
+
+    #imgMenu{
+       width: 30px;
+       margin: 0 5px 0 5px;
+       margin-top: 5px;
+       height: 30px;
+
+    }
+    .contenido{
+        width: 100%;
+        display: flex;
+        margin-top: 5px;
+        flex-direction: column;
+    }
+
+    .menuIzq{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .opIzq{
+        width: 100%;
+        height: 25px;
+        color: white;
+        background-color: #1E72B8; 
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 3px;
+    }
+
+    .secDer{
+        width: 100%;
+        background-color: #FEE4C3;
+        height: 400px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .imgDer{
+        width: 100%;
+    }
+
+    #programas{
+        background-color: #999999;
+        text-align:left;
+        color: white;
+        height: 40px;
+        padding: 7px;
+        margin-bottom: 3px;
+    }
+
+    #accesos{
+        background-color: #999999;
+        text-align:left;
+        color: white;
+        height: 40px;
+        padding: 7px;
+        margin-top: 5px;
+    }
+
+    .contImg{
+        display: flex;
+        flex-direction: row;
+        padding: 0 40px;  
+        flex-wrap: wrap;
+    }
+
+    #imagenesDer{
+        margin: 0 15px 0 15px;
+    }
+
+    .subImg{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 25px;
+        margin-top: 5px;
+    }
+
+    .footer{
+        background-color: #DADADA;
+        height: 150px;
+       text-align: center;
+       padding: 23px;
+       margin-top: 15px;
+    }
+
+    #uaslp{
+        font-weight: bold;
+    }
+}
